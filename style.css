@@ -11,6 +11,7 @@
 body {
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
+  background-color: #edf2f7;
 }
 .neo2 {
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.1), -5px -5px 10px 0 #fff;
@@ -390,4 +391,51 @@ body {
   box-shadow: 8.61241px 9.27491px 13.9124px rgba(0, 0, 0, 0.06);
   /* box-shadow: 13px 13px 15px 0 rgba(0, 0, 0, 0.1); */
   /* filter: drop-shadow(13px 14px 21px rgba(0, 0, 0, 0.5)); */
+}
+#thanks .email-position-2 {
+  left: 150px;
+  top: -100px;
+}
+#thanks .email-position-3 {
+  right: 190px;
+}
+#thanks .head-text-1 {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 125%;
+}
+#thanks .head-text-2 {
+  font-size: 46px;
+  line-height: 125%;
+}
+#thanks .head-text-3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+}
+@media (max-width: 767.98px) {
+  #thanks .email-position-1 {
+    left: 30px;
+    top: 50px;
+    width: 25%;
+  }
+  #thanks .email-position-3 {
+    right: 28px;
+    bottom: -100px;
+    width: 25%;
+  }
+  #thanks .head-text-1 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 125%;
+  }
+  #thanks .head-text-2 {
+    font-size: 28px;
+    line-height: 125%;
+  }
+  #thanks .head-text-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+  }
 }
