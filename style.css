@@ -420,10 +420,11 @@ body {
     width: 25%;
   }
   #thanks .email-position-3 {
-    right: 28px;
+    right: 0px;
     bottom: -100px;
     width: 25%;
   }
+
   #thanks .head-text-1 {
     font-weight: 900;
     font-size: 32px;
@@ -437,5 +438,10 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 170%;
+  }
+}
+@media (max-width: 1199.98px) {
+  #thanks .email-position-3 {
+    right: 50px;
   }
 }
